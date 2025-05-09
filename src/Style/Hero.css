@@ -1,0 +1,105 @@
+.hero {
+    position: relative;
+    background: url('https://source.unsplash.com/1600x900/?technology') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    z-index: 2;
+    position: relative;
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    animation-delay: 0.5s;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    z-index: 2;
+    position: relative;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+.cta-button {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in-out forwards;
+    animation-delay: 1.5s;
+}
+
+.cta-button:hover {
+    background-color: #e55b00; /* Darker shade of orange */
+    transform: scale(1.05);
+}
+
+#tech5{
+    width: 100%;
+    height: 80%;
+    
+    
+}
+.tech{
+    background-image: url("/images/tech4.avif") ;
+    
+    background-color: #e55b00;
+    height:90vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-fixed{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    opacity: 0;
+    animation: fadeIn 5s ease-in-out forwards;
+    animation-delay: 2s;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-fixed:hover{
+    transform: scale(1.1);
+    color: #e55b00;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 10px 10px rgba(0,0,0,0.23);
+    text-shadow: 0 2px 5px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.24);
+}
+

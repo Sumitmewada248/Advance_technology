@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #003366; /* Deep Blue */
+    color: white;
+    a{
+
+    color: white;
+    text-decoration: none;
+    }
+}
+
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header nav ul li {
+    cursor: pointer;
+}
+
+.cta-button {
+    background-color: #FF6600; /* Bright Orange */
+    color: white;
+    border: none;
+    
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.atc{
+    display: flex;
+    gap: 20px;
+}
+
+nav{
+    font-size: 130%;
+}
+
+       
+

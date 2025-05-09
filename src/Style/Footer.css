@@ -1,0 +1,127 @@
+/* *{
+    width: 100%;
+}
+  .footer {
+    width: 100%;
+    
+    background: linear-gradient(135deg, #1a1f3d 0%, #161a2d 100%);
+    padding: 40px 60px;
+    border-top: 5px solid #0cf;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer-section {
+    flex: 1 1 220px;
+    margin: 20px;
+    min-width: 220px;
+  }
+  .footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0cf;
+    border-bottom: 2px solid #0cf;
+    padding-bottom: 8px;
+  }
+  .footer-section p,
+  .footer-section li,
+  .footer-section a {
+    color: #ccc;
+    font-size: 0.9rem;
+    line-height: 1.7;
+    text-decoration: none;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  .footer-section ul li:hover a,
+  .footer-section a:hover {
+    color: #0ff;
+  }
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .social-icons a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #222a56;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+    color: #0cf;
+    font-size: 1.3rem;
+  }
+  .social-icons a:hover {
+    background-color: #0cf;
+    color: #111;
+  }
+  .subscribe-form {
+    margin-top: 10px;
+  }
+  .subscribe-form input[type="email"] {
+    padding: 12px 14px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    width: 70%;
+    font-size: 1rem;
+  }
+  .subscribe-form button {
+    padding: 12px 18px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #0cf;
+    color: #111;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .subscribe-form button:hover {
+    background-color: #0ff;
+  }
+  .footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    border-top: 1px solid #222a56;
+    padding-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  @media (max-width: 768px) {
+    .footer {
+      padding: 30px 20px;
+    }
+    .footer-section {
+      flex: 1 1 100%;
+      margin: 10px 0;
+      min-width: auto;
+    }
+  }
+  @media (max-width: 400px) {
+    .footer {
+      padding: 20px 10px;
+      max-width: 350px;
+      font-size: 14px;
+    }
+    .subscribe-form input[type="email"] {
+      width: 60%;
+      padding: 10px 8px;
+      font-size: 0.9rem;
+    }
+    .subscribe-form button {
+      padding: 10px 12px;
+      font-size: 0.9rem;
+    }
+  }
+   */
